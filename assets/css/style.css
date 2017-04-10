@@ -1,0 +1,113 @@
+html {
+	min-height: 100%;
+	max-width: 980px;
+}
+header {
+	height: 80px;
+	background: white;
+	position: relative;
+	border-bottom: 2px #CCCCCC solid;
+}
+#name {
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	left: 10%;
+	width: 250px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ul {
+	list-style-type: none;
+	position: absolute;
+	right: 10px;
+	top: 10%;
+	display: inline-block;
+	padding: 5px;
+}
+.HeaderLinks {
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+body {
+	position: relative;
+	min-height: 100%;
+
+
+}
+.contentHeader {
+	margin: auto;
+	max-width: 360px;
+	padding: 30px 30px 20px 0px;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+.mainContent {
+	width: 420px;
+	position: absolute;
+	left: 10%;
+	top: 120px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border: 2px #CCCCCC solid;
+}
+#aboutText {
+	line-height: 180%;
+	padding: 20px 20px 10px 30px;
+}
+#headshot {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px 10px 10px;
+	width: 150px;
+	height: 150px;
+
+}
+.connect {
+	background-color: white;
+	position: absolute;
+	right: 10%;
+	top: 120px;
+	border: 2px #CCCCCC solid;
+}
+#connectWithMe {
+	margin: auto;
+	max-width: 200px;
+	font-size: 22px;
+	padding: 30px 0px 20px 0px;
+	text-align: center;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+.connectImages {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 2px white solid;
+}
+.connectImages:hover{
+	border-bottom: 5px #4f95DD solid;
+}
+footer {
+	width: 100%;
+	position: absolute;
+	top: 1250%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #666666;
+	border-top: 5px #00AFA8 solid;
+}
+#copyright {
+	color: white;
+}
+
