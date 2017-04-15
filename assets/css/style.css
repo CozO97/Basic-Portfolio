@@ -1,147 +1,256 @@
 html {
-	min-height: 100%;
-	max-width: 100%;
-	padding: 0%;
-	width: 100%;
-}
-header {
-	width: auto;
-	height: 80px;
-	background: white;
-	position: relative;
-	border-bottom: 2px #CCCCCC solid;
-}
-#name {
-	background: #4aaaa5;
-	color: white;
-	position: absolute;
-	left: 10%;
-	width: 250px;
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-ul {
-	list-style-type: none;
-	position: absolute;
-	right: 10px;
-	top: 10%;
-	display: inline-block;
-	padding: 5px;
-}
-.HeaderLinks {
-	display: inline;
-	align-items: center;
-	justify-content: center;
-	padding: 5px;
+    min-height: 100%;
 
 }
+
 body {
-	position: relative;
-	min-height: 100%;
-	background-image: url('Bacsic-Portfolio/assets/images/backgroundImage.jpg');
+    background-image: url("../images/backgroundImage.jpg");
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    width: auto;
+    height: 80px;
+    background: white;
+    position: relative;
+    border-bottom: 2px #CCCCCC solid;
+}
+
+#name {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    left: 10%;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    display: inline-block;
+    padding-top: 20px;
 
 }
+
+.HeaderLinks {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: blue;
+}
+
 .contentHeader {
-	margin: auto;
-	max-width: 360px;
-	padding: 30px 30px 20px 0px;
-	color: #00AFA8;
-	border-bottom: 2px #DDDDDD solid;
+    margin: auto;
+    
+    padding: 30px 30px 20px 0px;
+    color: #00AFA8;
+    border-bottom: 2px #DDDDDD solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .mainContent {
-	width: 420px;
-	position: absolute;
-	left: 10%;
-	top: 120px;
-	padding-bottom: 10px;
-	background-color: #ffffff;
-	border-color: #dddddd;
-	border: 2px #CCCCCC solid;
+    width: 420px;
+    position: absolute;
+    left: 10%;
+    top: 120px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 2px #CCCCCC solid;
+
 }
+
+#aboutMe {
+    font-size: 28px;
+    
+}
+
 #aboutText {
-	line-height: 180%;
-	padding: 20px 20px 10px 30px;
+    line-height: 180%;
+    padding: 20px 20px 10px 30px;
 }
+
 #headshot {
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 10px 10px 10px 10px;
-	width: 150px;
-	height: 150px;
-
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 150px;
 }
+
 .connect {
-	background-color: white;
-	position: absolute;
-	right: 10%;
-	top: 120px;
-	border: 2px #CCCCCC solid;
-}
-#connectWithMe {
-	margin: auto;
-	max-width: 200px;
-	font-size: 22px;
-	padding: 30px 0px 20px 0px;
-	text-align: center;
-	color: #00AFA8;
-	border-bottom: 2px #DDDDDD solid;
-}
-.connectImages {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
-	border-bottom: 2px white solid;
-}
-.connectImages:hover{
-	border-bottom: 5px #4f95DD solid;
-}
-footer {
-	width: 100%;
-	position: absolute;
-	top: 1000%;
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #666666;
-	border-top: 5px #00AFA8 solid;
-	
-}
-#copyright {
-	color: white;
-}
-#firstname, #lastname {
-	margin: auto;
-	width: 390px;
-	background-color: papayawhip;
-}
-#FormMessage {
-	margin: auto;
-	width: 390px;
-	height: 50px;
-	background-color: papayawhip;
-}
-#submitButton {
-	width: 10em;
-	background-color: #87CEEB;
+    background-color: white;
+    position: absolute;
+    right: 20%;
+    top: 120px;
+    border: 2px #CCCCCC solid;
 }
 
+#connectWithMe {
+    margin: auto;
+    width: 200px;
+    font-size: 22px;
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+    color: #00AFA8;
+    border-bottom: 2px #DDDDDD solid;
+}
+
+.connectImages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 2px white solid;
+}
+
+.connectImages:hover {
+    border-bottom: 5px #4f95DD solid;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 125%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+    border-top: 5px #00AFA8 solid;
+}
+
+#copyright {
+    color: white;
+}
+
+#firstname,
+#lastname {
+    margin: auto;
+    width: 390px;
+    background-color: papayawhip;
+}
+
+#FormMessage {
+    margin: auto;
+    width: 390px;
+    height: 50px;
+    background-color: papayawhip;
+}
+
+#submitButton {
+    background-color: #00AFA8;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 16px;
+
+}
+button:hover {
+	background-color: red;
+}
 
 .ContactHeader {
-	margin: auto;
-	max-width: 360px;
-	padding: 30px 30px 20px 0px;
-	color: #00AFA8;
-	border-bottom: 2px #DDDDDD solid;
-	text-align: center;
+    margin: auto;
+    max-width: 360px;
+    padding: 30px 30px 20px 0px;
+    color: #00AFA8;
+    border-bottom: 2px #DDDDDD solid;
+    text-align: center;
+    font-size: 22px;
 }
+
 .ContactForm {
-	margin: auto;
-	max-width: 420px;
-	padding: 10px 10px 10px 10px;
+    margin: auto;
+    max-width: 420px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Portfolio {
+    width: 690px;
+}
+
+.game {
+    float: left;
+    margin: 25px 25px 25px 25px;
+    border: 8px #666666 solid;
+    width: 274px;
+    height: 204px;
+    z-index: -1;
+}
+
+.imageText {
+    width: 274px;
+    background-color: #00AFA8;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 155px;
+}
+
+#hangman {
+    float: left;
+    width: 274px;
+    height: 204px;
+}
+
+#rpg {
+    float: left;
+    width: 274px;
+    height: 204px;
+}
+
+#trivia {
+    float: left;
+    width: 274px;
+    height: 204px;
+}
+
+#rutgers {
+    float: left;
+    width: 274px;
+    height: 204px;
+}
+
+#rps {
+    float: left;
+    width: 274px;
+    height: 204px;
+}
+
+#rpsText {
+    align-items: center;
+    justify-content: center;
+    width: 274px;
+    background-color: #00AFA8;
+    color: white;
+    display: flex;
+    height: 50px;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 155px;
+}
+a:hover {
+	color: #4F95DD;
 }
